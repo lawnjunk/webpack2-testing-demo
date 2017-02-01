@@ -13,7 +13,7 @@ module.exports = function(config) {
     autoWatch: true,
     singleRun: false,
     concurrency: Infinity,
-    frameworks: ['jasmine'],
+    frameworks: ['mocha'],
     reporters: ['progress'],
     browsers: ['PhantomJS'],
     logLevel: config.LOG_INFO,
